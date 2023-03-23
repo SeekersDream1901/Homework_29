@@ -12,7 +12,7 @@ from rest_framework.generics import ListAPIView, RetrieveAPIView, CreateAPIView,
 from rest_framework.viewsets import ModelViewSet
 
 from ads.models import Ad, User, Category, Location
-from ads.serializers import CategorySerializer, LocationSerializer, AdSerializer, UserSerializer, UserCreateSerializer, \
+from ads.serializers import CategorySerializer, LocationSerializer, AdSerializer, UserSerializer, UserCreateSerializer,\
     CategoryDetailSerializer, AdDetailSerializer, UserDetailSerializer, AdCreateSerializer, CategoryCreateSerializer, \
     CategoryUpdateSerializer, \
     AdUpdateSerializer, UserUpdateSerializer, CategoryDestroySerializer, AdDestroySerializer, \
